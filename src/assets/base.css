@@ -1,6 +1,7 @@
 body {
   margin: 0;
   height: 100vh;
+  background-color: rgb(255, 159, 197);
 }
 
 #app {
@@ -8,14 +9,17 @@ body {
   display: grid;
   grid-template-columns: 15% 1fr;
   grid-template-rows: 10% auto 10%;
-  grid-template-areas: 
+  grid-template-areas:
     "header header"
     "sidenav content"
     "footer footer";
 }
 
-#header, #content, #sidenav, #footer {
-  border: 1px solid green;
+#header,
+#content,
+#sidenav,
+#footer {
+  border: 1px solid rgb(77, 29, 91);
 }
 
 #header {
@@ -36,8 +40,13 @@ body {
 .block {
   width: 300px;
   height: 300px;
-  border: 1px solid blue;
+  border: 1px solid rgb(15, 4, 18);
   border-radius: 15px;
   padding: 20px;
   margin: 10px;
+}
+.NovoComp:hover {
+  background-color: rgb(59, 13, 73);
+  text-align: center;
+  justify-content: center;
 }

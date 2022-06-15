@@ -1,6 +1,7 @@
 <script>
 export default {};
 </script>
+
 <template>
   <aside id="sidenav">
     <ul>
@@ -12,4 +13,5 @@ export default {};
     </ul>
   </aside>
 </template>
+
 <style></style>
